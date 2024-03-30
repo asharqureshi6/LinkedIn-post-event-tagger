@@ -1,1 +1,5 @@
 # LinkedIn-post-event-tagger
+
+Starting from a dataset where the single documents are the last year LinkedIn posts of the S&P500 companies, we aim at investigating firstly whether there exist any significant differences in the communication within firms across sectors and across different magnitudes of capitalization. In the former scenario, we expect to find more interesting results than in the latter; still, we are going to face the subsequent step (i.e. classification) with the dimension which ends up being the most significant. \
+For what concerns the classification task, we start by building a predictive model of the target label using a Logistic Regression as the baseline reference. Then, we proceed with the implementation of more algorithms (such as XGBoost and dimensionality reduction) to investigate whether different models provide significantly different performances. \
+Together with this, in the last step, we aim at employing the structured perceptron, LSTM and BI-LSTM in keras implementation in order to train a model able to detect the relevant events for every post (which have been manually labeled).
